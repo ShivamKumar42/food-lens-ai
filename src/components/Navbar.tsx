@@ -1,4 +1,4 @@
-import { Brain, Github, Moon, Sun } from "lucide-react";
+import { Brain, Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
@@ -16,15 +16,6 @@ const Navbar = () => {
           <span className="font-heading text-lg font-bold text-foreground">FoodAI</span>
         </div>
         <div className="flex items-center gap-3">
-          <a
-            href="https://github.com/melodiw82/FoodClassification_DL"
-            target="_blank"
-            rel="noreferrer"
-            className="rounded-lg p-2 text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
-            aria-label="GitHub repository"
-          >
-            <Github className="h-5 w-5" />
-          </a>
           <button
             onClick={() => setDark(!dark)}
             className="rounded-lg p-2 text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
