@@ -139,17 +139,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="border-t border-border py-8">
         <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p>
-            Built with TensorFlow, FastAPI & React ·{" "}
-            <a
-              href="https://github.com/melodiw82/FoodClassification_DL"
-              target="_blank"
-              rel="noreferrer"
-              className="text-primary underline-offset-4 hover:underline"
-            >
-              View on GitHub
-            </a>
-          </p>
+          <p>Built with TensorFlow, FastAPI & React</p>
         </div>
       </footer>
     </div>
